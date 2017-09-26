@@ -8,9 +8,23 @@
 
 // Feels like
 $temp = $forecast['currently']['temperature'];
-
 if($temp < 50){
 	$Feels = 'It\'s is cold outside.';
 } else { 
 	$Feels = 'It\'s is nice outside.';
+}
+// if temprature then
+if ($temp < 30 ) {
+	$tempreply = 'Winter is comming';
+	//change background color
+	//$tempstyle = '<?php echo = 'background-color;
+} elseif ($temp < 50 ) {
+	$tempreply = 'spring time';
+	//$tempstyle = '<?php echo = 'background-color;
+} elseif ($temp < 70 ) {
+	$tempreply = 'Finally summer';
+	//$tempstyle = '<?php echo = 'background-color;
+} else {
+	$tempreply = 'Finally summer';
+	//$tempstyle = '<?php echo = 'background-color;
 }

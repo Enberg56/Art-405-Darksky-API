@@ -25,7 +25,7 @@
             Windspeed: <?php echo round($forcast ['current']['windSpeed']); ?> MPH
           </p>
           <p class="lead">
-           <?php echo $Feels ?>
+           <?php echo $tempreply ?>
           </p>
 
       </div>
